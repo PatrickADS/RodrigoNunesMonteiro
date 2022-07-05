@@ -1,0 +1,88 @@
+*{
+  margin:0 auto;
+  padding:0;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+img{
+  width: 150px;
+  height: 155px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70%;
+  margin-top: 5%;
+  -webkit-box-shadow: 0px 2px 15px -4px #000000;
+  box-shadow: 0px 2px 15px -4px #000000;
+  cursor: pointer;
+  animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Calibri";
+  font-size: 18px;
+  margin: 2%;
+  color: #376d7c;
+  animation: backInDown;
+  animation-duration: 2.5s;
+}
+
+
+p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Calibri";
+  font-size: 16px;
+  margin: 2%;
+  color: #47484d;
+  animation: flipInX;
+  animation-duration: 5.1s;
+}
+header#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header#container a{
+  width: 200px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #94b2c2;
+  text-decoration: none;
+  font-family: "Calibri";
+  font-size: 18px;
+  color: #000;
+  animation: zoomIn;
+  animation-duration: 4.5s;
+}
+header#container a:hover{
+  background-color: #375877;
+  transition: 1s;
+  color: #f9f9f9;
+}
+.rodape{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Calibri";
+  font-size: 16px;
+  color: #214e4a;
+  margin: 5%;
+  animation: zoomIn;
+  animation-duration: 9s;
+}
+.rodape a{
+  text-decoration: none;
+  margin:0;
+  padding:0;
+  font-weight: bold;
+  color: #47484d;
+}
